@@ -1,0 +1,11 @@
+--- a/SConstruct	2020-08-22 14:42:41.532995051 +0200
++++ b/SConstruct	2020-08-22 14:47:07.091656501 +0200
+@@ -1460,8 +1460,6 @@
+             # follow FHS, put in /usr/local/libXX, not /usr/libXX
+             # may be lib, lib32 or lib64
+             python_libdir = polystr(python_libdir)
+-            python_libdir = python_libdir.replace("/usr/lib",
+-                                                  "/usr/local/lib")
+         python_module_dir = str(python_libdir) + os.sep
+         # Many systems can have a problem with the Python path
+         announce("Ensure your PYTHONPATH includes %s" % python_module_dir)
