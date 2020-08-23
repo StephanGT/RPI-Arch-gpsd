@@ -3,27 +3,27 @@
 Minimal Builds with PPS and NMEA0183 Support for NTP.
 
 Based on the AUR [gpsd-timing](https://aur.archlinux.org/packages/gpsd-timing/).
-Remove the fixed Portspped Build in.
+Remove the Build in fixed Portspeed.
 Set now the Baudrate in /etc/default/gpsd.
 
 Update the Python Libdir Patch to Version 3.21.
 
 ### Sources enabled:
 
-* mtk3301
-* pps
-* timing
-* timeservice
+* gpsclock
+* isync
 * ipv6
 * ublox
 * usb
-* nmea0183
-* gpsclock
-* ntp
-* ntpshm
-* magic_hat
-* isync
-* oscillator
-* shm_export
-* ntrip
 * leapfetch
+* magic_hat
+* mtk3301
+* ntp
+* ntrip
+* ntpshm
+* nmea0183
+* oscillator
+* pps
+* shm_export
+* timing
+* timeservice
