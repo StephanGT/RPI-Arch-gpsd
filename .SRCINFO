@@ -1,0 +1,31 @@
+pkgbase = gpsd-minimal-ntp
+	pkgdesc = Minmal GPS daemon and library to support USB/serial GPS devices, for NTP with (RPI_GPIO)-PPS.
+	pkgver = 3.21
+	pkgrel = 1
+	url = http://catb.org/gpsd/
+	arch = armv6h
+	arch = armv7h
+	license = BSD
+	makedepends = scons
+	makedepends = docbook-xsl
+	makedepends = python
+	depends = python
+	depends = libusb
+	depends = bluez-libs
+	depends = pps-tools
+	depends = ntp
+	provides = gpsd
+	conflicts = gpsd
+	backup = etc/default/gpsd
+	source = https://download.savannah.gnu.org/releases/gpsd/gpsd-3.21.tar.gz
+	source = https://download.savannah.gnu.org/releases/gpsd/gpsd-3.21.tar.gz.sig
+	source = gpsd.conf
+	source = fix-python-libdir.patch
+	validpgpkeys = EED4A0893DCC705DB309E202CCF29C7238522905
+	sha256sums = 65504c3af8d3b0cce3c07405b8815d7730d2d2be2da7d28d275f1a9c57c6fe91
+	sha256sums = 951b8c2ab5ca8dcc9c388b29fe0cf55f5bd07e9a0b0707671478a6f928918291
+	sha256sums = 8ba5f70f20100931088101a3bd53b1f696585720a2e52de9591fdfe9ba5b3e5e
+	sha256sums = 3638eb1578651b6a23f512841cb774cfdeb04c362bfd37c65a703c1cda95655e
+
+pkgname = gpsd-minimal-ntp
+
