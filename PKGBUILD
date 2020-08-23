@@ -47,9 +47,9 @@ build() {
         pkgconfig=/usr/lib/pkgconfig \
         sbindir=/usr/bin \
         udevdir=/usr/lib/udev \
-        reconfigure=yes \
+        reconfigure=no \
         control_socket=yes \
-        controlsend=yes \
+        controlsend=no \
         dbus_export=yes \
         socket_export=yes \
         passthrough=yes \
@@ -64,8 +64,6 @@ build() {
         max_clients=32 \
         max_devices=4 \
         timing=yes \
-		controlsend=no \
-		reconfigure=no \
         ncurses=yes \
         python=yes \
         systemd=yes \
@@ -107,8 +105,8 @@ build() {
         skytraq=no \
         superstar2=no \
         tnt=no \
-  		tripmate=no \
-		tsip=no \
+        tripmate=no \
+        tsip=no \
         ublox=yes	
   scons build
 }
