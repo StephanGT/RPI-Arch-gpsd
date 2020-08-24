@@ -23,7 +23,7 @@ source=(https://download.savannah.gnu.org/releases/"${pkgname%%-minimal-ntp}"/"$
         'fix-python-libdir.patch')
 sha256sums=('65504c3af8d3b0cce3c07405b8815d7730d2d2be2da7d28d275f1a9c57c6fe91'	# gpsd-3.21.tar.gz
             '951b8c2ab5ca8dcc9c388b29fe0cf55f5bd07e9a0b0707671478a6f928918291'	# gpsd-3.21.tar.gz.sig
-            '8ba5f70f20100931088101a3bd53b1f696585720a2e52de9591fdfe9ba5b3e5e'	# gpsd.conf
+            'c9e80e58cb2f2e7bfaf5c4bcb5a030af49c0da7c5e378a78a63a4b589f64167b'	# gpsd.conf
             '3638eb1578651b6a23f512841cb774cfdeb04c362bfd37c65a703c1cda95655e') # fix-python-libdir.patch
 validpgpkeys=('EED4A0893DCC705DB309E202CCF29C7238522905') # Gary E. Miller <gem@rellim.com>
 
