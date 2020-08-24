@@ -2,14 +2,14 @@
 ## Gpsd on Raspberry PI's run under Arch Linux.
 Minimal Builds with PPS and NMEA0183 Support for NTP.
 
-Based on the AUR [gpsd-timing](https://aur.archlinux.org/packages/gpsd-timing/).
-Remove the Build in fixed Portspeed.
-Set now the Baudrate in /etc/default/gpsd.
+Based on the AUR [gpsd-timing](https://aur.archlinux.org/packages/gpsd-timing/) .<br />
+Remove the Build in fixed Portspeed. <br />
+Set now the Baudrate in /etc/default/gpsd. <br />
 
 Update the Python Libdir Patch to Version 3.nn.
 
 ### Sources enabled:
-
+<pre>
 * gpsclock
 * isync         | U-Blox
 * ipv6
@@ -29,3 +29,4 @@ Update the Python Libdir Patch to Version 3.nn.
 * shm_export
 * timing
 * timeservice
+</pre>
