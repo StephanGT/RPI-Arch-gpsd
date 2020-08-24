@@ -19,11 +19,13 @@ Update the Python Libdir Patch to Version 3.nn.
 * magic_hat
 * mtk3301
 * ntp
-* ntrip
+* ~~ntrip~~
 * ntpshm
 * nmea0183
 * oscillator
 * pps
+* rtcm104v2
+* rtcm104v3
 * shm_export
 * timing
 * timeservice
