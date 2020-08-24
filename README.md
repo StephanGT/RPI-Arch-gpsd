@@ -10,13 +10,13 @@ Update the Python Libdir Patch to Version 3.nn.
 ### Sources enabled:
 
 * gpsclock
-* isync $~~~~~~~~$ | U-Blox
+* isync &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | U-Blox
 * ipv6
 * ublox
 * usb
 * leapfetch
-* magic_hat $~~~~$ | Uputronics, U-box M8, PPS @ GPIO18
-* mtk3301 $~~~~~~$ | Adafruit Ultimate GPS, PPS @ GPIO4
+* magic_hat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Uputronics, U-box M8, PPS @ GPIO18
+* mtk3301 &nbsp;&nbsp;&nbsp;&nbsp; | Adafruit Ultimate GPS, PPS @ GPIO4
 * ntp
 * ~~ntrip~~
 * ntpshm
