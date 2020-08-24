@@ -17,7 +17,8 @@ license=('BSD')
 depends=('python' 'libusb' 'bluez-libs' 'pps-tools' 'ntp')
 makedepends=('scons' 'docbook-xsl' 'python')
 backup=('etc/default/gpsd')
-source=(https://download.savannah.gnu.org/releases/"${pkgname%%-minimal-ntp}"/"${pkgname%%-minimal-ntp}"-$pkgver.tar.gz{,.sig}
+source=(https://download.savannah.gnu.org/releases/"${pkgname%%-minimal-ntp}"/"${pkgname%%-minimal-ntp}"-$pkgver.tar.gz
+        https://download.savannah.gnu.org/releases/"${pkgname%%-minimal-ntp}"/"${pkgname%%-minimal-ntp}"-$pkgver.tar.gz.sig
         'gpsd.conf'
         'fix-python-libdir.patch')
 sha256sums=('65504c3af8d3b0cce3c07405b8815d7730d2d2be2da7d28d275f1a9c57c6fe91'	# gpsd-3.21.tar.gz
