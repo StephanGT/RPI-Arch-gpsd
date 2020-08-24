@@ -6,7 +6,7 @@ Based on the AUR [gpsd-timing](https://aur.archlinux.org/packages/gpsd-timing/).
 Remove the Build in fixed Portspeed.
 Set now the Baudrate in /etc/default/gpsd.
 
-Update the Python Libdir Patch to Version 3.21.
+Update the Python Libdir Patch to Version 3.nn.
 
 ### Sources enabled:
 
