@@ -24,6 +24,8 @@ Update the Python Libdir Patch to Version 3.21.
 * nmea0183
 * oscillator
 * pps
+* rtcm104v2
+* rtcm104v2
 * shm_export
 * timing
 * timeservice
