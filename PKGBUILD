@@ -96,7 +96,7 @@ build() {
         netfeed=yes \
         nmea0183=yes \
         nmea2000=no \
-        ntrip=no \
+        ntrip=yes \
         oceanserver=no \
         oncore=no \
         rtcm104v2=yes \
