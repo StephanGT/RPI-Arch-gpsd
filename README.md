@@ -12,6 +12,7 @@ Update des Python Libdir Patches für Version 3.21.
 * gpsclock
 * isync &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | U-Blox
 * ipv6
+* JSON &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Need for NTP Driver 46.
 * ublox
 * usb
 * leapfetch
