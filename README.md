@@ -5,7 +5,7 @@ Minimal Builds with PPS and NMEA0183 Support for NTP.
 Basiert auf dem  AUR [gpsd-timing](https://aur.archlinux.org/packages/gpsd-timing/) .<br />
 Die 'fixed Portspeed' Funktion wird nicht mehr mit eingebaut. Die Baudrate kann nun in /etc/default/gpsd anpasst werden. <br />
 
-Update des Python Libdir Patches für Version 3.21.
+Statischen Python Libdir Patch entfernt. Der Pfad wird nun beim Bauen gesucht.
 
 ### Sources enabled:
 
