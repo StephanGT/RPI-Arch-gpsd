@@ -48,7 +48,7 @@ build() {
         socket_export=yes \
         passthrough=yes \
         gpsd_group=uucp \
-        gpsd_user=nobody \
+        gpsd_user=root \
         implicit_link=yes \
         shared=yes \
         ipv6=yes \
